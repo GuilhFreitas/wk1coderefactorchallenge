@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+
 body {
     background-color: #d9dcd6;
 }
@@ -20,6 +21,7 @@ h1 {
     font-size: 48px;
 }
 
+/* This is the font colour variation for the heading */
 h1 .seo {
     color: #d9dcd6;
 }
@@ -46,10 +48,7 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* This contains the background image */
 figure {
     height: 800px;
     width: 100%;
@@ -59,6 +58,31 @@ figure {
     background-position: center;
 }
 
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+main section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+main section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+img {
+    max-height: 200px;
+}
+
+/* The floats used for the images in the main section element */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,10 +93,8 @@ figure {
     margin-left: 25px;
 }
 
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+p {
+    font-size: 16px;
 }
 
 aside {
@@ -100,24 +122,6 @@ aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-main section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-main section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-img {
-    max-height: 200px;
 }
 
 footer {
